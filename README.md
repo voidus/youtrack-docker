@@ -39,6 +39,8 @@ You also need some RAM for youtrack, but I can't really tell how much. Maybe abo
 
 Now open your browser and point it to `http://localhost:8080` and rejoice. :)
 
+When deploying, take a look at the provided apache config file.
+
 ### A little explanation
 The last commands parameters might have to be adjusted a little, so I'll explain them one by one.
 
