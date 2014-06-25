@@ -1,4 +1,4 @@
-FROM ubuntu:12.04
+FROM ubuntu:14.04
 RUN mkdir /youtrack-data && touch /youtrack-data/.keep
 VOLUME /youtrack-data
 
