@@ -31,7 +31,7 @@ You also need some RAM for youtrack, but I can't really tell how much. Maybe abo
 
 4. Create your data container
 
-  `docker run -name youtrack-data-container youtrack-data true`
+  `docker run --name youtrack-data-container youtrack-data true`
 
 5. Run it! (Stop with CTRL-C, repeat at pleasure)
 
