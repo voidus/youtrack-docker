@@ -10,7 +10,7 @@ RUN apt-get install -y oracle-java7-installer
 
 # Install youtrack
 WORKDIR /home/youtrack
-RUN wget -nv http://download.jetbrains.com/charisma/youtrack-5.2.1-8778.jar -O /youtrack.jar
+RUN wget -nv http://download.jetbrains.com/charisma/youtrack-6.0.12634.jar -O /youtrack.jar
 
 ADD ./etc /etc
 
