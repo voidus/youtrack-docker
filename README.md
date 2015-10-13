@@ -35,7 +35,7 @@ You also need some RAM for youtrack, but I can't really tell how much. Maybe abo
 
 5. Run it! (Stop with CTRL-C, repeat at pleasure)
 
-  `docker run --volumes-from youtrack-data-container -p 127.0.0.1:8080:8000 --rm youtrack`
+  `docker run --volumes-from youtrack-data-container -p 127.0.0.1:8080:80 --rm youtrack`
 
 Now open your browser and point it to `http://localhost:8080` and rejoice. :)
 
@@ -48,11 +48,11 @@ The last commands parameters might have to be adjusted a little, so I'll explain
 
 This makes youtrack use your data. Handle with care.
 
-`-p 127.0.0.1:8080:8000`
+`-p 127.0.0.1:8080:80`
 
-This makes the port 8000 that youtrack listens at available to 127.0.0.1 on port 8080.
+This makes the port 80 that youtrack listens at available to 127.0.0.1 on port 8080.
 If you want to directly expose it, remove `127.0.0.1:`. If you want to change the port, change `8080`. Don't change
-`8000`, it depends on internal stuff.
+`80`, it depends on internal stuff.
 
 `--rm`
 
