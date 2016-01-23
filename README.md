@@ -23,7 +23,7 @@ You also need some RAM for youtrack, but I can't really tell how much. Maybe abo
 
   `git clone git://github.com/voidus/youtrack-docker && cd youtrack-docker`
 
-3. Create images
+3. Create images by running deploy.sh or alternatively use these commands
 
   `docker build -t youtrack-data data`
 
