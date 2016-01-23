@@ -1,3 +1,4 @@
+#!/bin/sh
 docker build -t youtrack-data data
 docker build -t youtrack youtrack
 docker run --name youtrack-data-container youtrack-data true
