@@ -25,6 +25,8 @@ You also need some RAM for youtrack, but I can't really tell how much. Maybe abo
 
 3. Create images
 
+  run deploy.sh or if you prefer run the commands manually:
+
   `docker build -t youtrack-data data`
 
   `docker build -t youtrack youtrack`
